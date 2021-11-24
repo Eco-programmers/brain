@@ -141,15 +141,6 @@ Creating a `.gitignore` file is usually one of the first steps after creating a 
 `git checkout my-branch` switch to that branch (git version < 2.23)
 `git switch my-branch` switch to that branch (git version >= 2.23)
 
-# Excercises
-
-- Download a Qt project from StudIP
-- create a new repository at gitlab.gwdg.de
-- follow the instructions to push your code to GitLab
-- create a new branch (e.g. "dev"), switch to that branch and do some work. 
-- commit to the new branch and push it to GitLab (find out how to create a branch on GitLab and sync the remote branch to your local branch)
-- switch back to the master branch and merge dev into master
-- push to the remote repository
 
 ## Useful
 https://ndpsoftware.com/git-cheatsheet.html
