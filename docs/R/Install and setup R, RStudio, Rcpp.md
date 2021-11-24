@@ -51,4 +51,4 @@ Install Rtools in a directory with no fancy characters in its path, e.g. `C:\R\R
 ---
 
 References:
-Related: [[R]] [[Rcpp]]
+Related: 

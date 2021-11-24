@@ -90,4 +90,4 @@ I also check roxygenize on "Build and Restart" for convenience.
 ---
 
 References: [YoMos Workshop 2020](https://github.com/selinaZitrone/YoMos2020)
-Related: [[R]] [[Rcpp]]
+Related:

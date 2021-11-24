@@ -166,4 +166,4 @@ https://guides.github.com/
 
 ---
 References: 
-Related: [[Git]] [[HowTo]]
+Related: 
