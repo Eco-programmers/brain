@@ -74,11 +74,11 @@ and add the lines suggested usethis to your R/package.R file
 
 - Build tab -> More -> Configure Build Tools:
 
-![](Screenshot%20from%202020-02-05%2009-45-21.png)
+![](../attachments/Screenshot%20from%202020-02-05%2009-45-21.png)
 
 - Check Generate documentation with Roxygen:
 
-![](Screenshot%20from%202020-02-05%2009-47-44.png)
+![](../attachments/Screenshot%20from%202020-02-05%2009-47-44.png)
 I also check roxygenize on "Build and Restart" for convenience.
 
 # Sources and further reading
