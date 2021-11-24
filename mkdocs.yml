@@ -1,7 +1,7 @@
 site_name: brain
 
 theme:
-    logo: docs/attachments/brain.png
+    logo: attachments/brain.png
     name: 'material'
     palette:
 
