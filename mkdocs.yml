@@ -2,14 +2,15 @@ site_name: brain
 
 theme:
     logo: attachments/brain.png
+    language: en
     name: 'material'
     palette:
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: green
-      accent: indigo
+      primary: blue grey
+      accent: deep orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -17,7 +18,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: grey
+      primary: blue grey
       accent: blue
       toggle:
         icon: material/toggle-switch
