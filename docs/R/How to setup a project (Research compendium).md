@@ -2,7 +2,7 @@
 title: How to setup a project (Research compendium)
 date created: 2021-11-25
 ---
-# !! Work in progress !!
+# !! Work in progress !! #WIP
 
 ## Motivation
 - Reproducability -  for you and others
