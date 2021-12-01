@@ -8,9 +8,7 @@ date updated: '2021-12-01'
 
 [Debugging R](https://adv-r.hadley.nz/debugging.html) code is is normally quite straight forward and RStudio offers [useful tools](https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-the-RStudio-IDE). But when you have to debug R packages with compiled code it becomes more complicated. For C++ code, you might want to use an external debugger [like Qt Creator with gdb](Setup%20Qt%20Creator%20to%20develop%20Rcpp.md), for example.
 
-Sometimes, especially when the bug affects the interface between R and your compiled code, R just crashes or behaves funny when using your package.  Then you need to check your package with particular R variants
-
-The package to be tested is assumed to be in `$PWD/spectre` for this example.
+Sometimes, especially when the bug affects the interface between R and your compiled code, R just crashes or behaves funny when using your package.  Then you need to check your package with specially compiled R variants.
 
 ## Start the Docker container
 
