@@ -47,15 +47,6 @@ It is helpful to understand that there are three perspectives to a code review: 
 - Seek to understand the reviewer's perspective.
 - Try to respond to every comment.
 
-### Additional, when working in GitHub/GitLab
-
-- Extract some suggested changes and refactoring into future tickets/stories.
-- Link to the code review from the ticket/story. ("Ready for review: <https://github.com/organization/project/pull/1>")
-- Push commits based on earlier rounds of feedback as isolated commits to the branch. Do not squash until the branch is ready to merge. Reviewers should be able to read individual updates based on their earlier feedback.
-- Wait to merge the branch until continuous integration (GitHub Actions, Travis CI, etc.) tells you the test suite is green in the branch.
-- Merge once you feel confident in the code and its impact on the project.
-- Final editorial control rests with the pull request author.
-
 ## Reviewing Code
 
 Understand why the change is necessary (fixes a bug, improves the user experience, refactors the existing code). Then:
@@ -65,13 +56,6 @@ Understand why the change is necessary (fixes a bug, improves the user experienc
 - If discussions turn too philosophical or academic, move the discussion offline to a regular Friday afternoon technique discussion. In the meantime, let the author make the final decision on alternative implementations.
 - Offer alternative implementations, but assume the author already considered them. ("What do you think about using ... here?")
 - Seek to understand the author's perspective.
-
-### Additional, when working in GitHub/GitLab
-
-- Sign off on the pull request with a ![+1](https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png) or "Ready to merge" comment.
-- Remember that you are here to provide feedback, not to be a gatekeeper.
-
-(end of part mostly copied from [guides/code-review at main · thoughtbot/guides](https://github.com/thoughtbot/guides/tree/main/code-review))
 
 ---
 
