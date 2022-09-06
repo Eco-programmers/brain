@@ -20,7 +20,7 @@ Open a console and enter:
 It is either installed already or, it will prompt you to install it.
 
 ### Windows
-
+- [Video: How to install Git on Windows]](https://studip.uni-goettingen.de/plugins.php/mediacastplugin/media/player/a204ca1063e8d80489e8189dcb59fcbc/127/ee3837612f86959de3771bf49a0d9553)
 Download the Windows installer or the Windows Portable version from https://git-scm.com/download/win
 
 ### Graphical user interfaces
@@ -30,7 +30,8 @@ Have a look at: https://git-scm.com/downloads/guis/
 * I use from time to time GitKraken ([free for students](https://www.gitkraken.com/student-resources), commercial, Linux, macOS, Win)
 
 ## Getting started
-
+- [Video: Git basics](https://studip.uni-goettingen.de/plugins.php/mediacastplugin/media/player/0d9296df096169dca303ea627560e935/127/ee3837612f86959de3771bf49a0d9553)
+- [Video: Keep Git branches in sync](https://studip.uni-goettingen.de/plugins.php/mediacastplugin/media/player/ea7161881bdf7bfa9ee77e92922540b5/127/ee3837612f86959de3771bf49a0d9553)
 ### First-time, only
 Give Git your name and e-mail address. Both will be part of your git commits so its possible to distinguish between the commits of different contributors.
 ```
