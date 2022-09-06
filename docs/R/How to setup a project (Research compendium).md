@@ -16,7 +16,7 @@ date created: 2021-11-25
 
 ```bash
 yourProject
-├── data          # folder contains all raw data (read-only) - modified data is in the outputs/ folder
+├── raw_data      # folder contains all raw data (read-only) - modified data is in the outputs/ folder
 │   └── README	  # text file which describes what is to be stored in that folder
 ├── DESCRIPTION   # file contains project metadata (author, date, dependencies, etc.)
 ├── figures       # folder contains all the figures created during the workflow
@@ -44,6 +44,8 @@ yourProject
  ```
 
 This structure is recognized by RStudio as an [R-Package](R-Package). This allows to `build` and even `install` your project! Also you don't need to setup this structure by hand. Either simply create an [R-Package](R-Package), with R Studio or `usethis::create_package()`
+
+Note: use "raw_data" if you do not want to include the data to the project as you cannot exclude 'data' from the package 
 
 ## Recommended 
 

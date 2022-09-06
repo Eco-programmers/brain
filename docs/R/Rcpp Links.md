@@ -10,6 +10,7 @@ date updated: '2021-11-24'
 - [Rcpp presentation slides](https://privefl.github.io/R-presentation/Rcpp.html) by Florian Privé.
 - [Rcpp example gallary](https://gallery.rcpp.org/) Very helpful!
 - [R refernence byDirk Eddelbuettel](http://dirk.eddelbuettel.com/papers/rcpp_rfinance_may2017.pdf) and more [publications](http://dirk.eddelbuettel.com/papers/)
+- [My Rcpp Hacky Hour talk]( https://github.com/bitbacchus/Rcpp-talk-2020)
 
 ---
 
