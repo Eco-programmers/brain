@@ -11,9 +11,11 @@ date updated: '2021-11-24'
 The `R` version in the Ubuntu repositories is usually outdated. I therefore recommend to use CRAN's Ubuntu repository:
 
 ```bash
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo apt install --no-install-recommends software-properties-common dirmngr
 
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
 ```
 
 Then install R, Rcpp and RInside:
@@ -50,5 +52,5 @@ Install Rtools in a directory with no fancy characters in its path, e.g. `C:\R\R
 
 ---
 
-References:
+References: https://cran.r-project.org/bin/linux/ubuntu/
 Related: 
