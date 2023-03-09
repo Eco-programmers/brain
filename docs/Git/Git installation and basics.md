@@ -20,7 +20,7 @@ Open a console and enter:
 It is either installed already or, it will prompt you to install it.
 
 ### Windows
-- [Video: How to install Git on Windows]](https://studip.uni-goettingen.de/plugins.php/mediacastplugin/media/player/a204ca1063e8d80489e8189dcb59fcbc/127/ee3837612f86959de3771bf49a0d9553)
+- [Video: How to install Git on Windows](https://studip.uni-goettingen.de/plugins.php/mediacastplugin/media/player/a204ca1063e8d80489e8189dcb59fcbc/127/ee3837612f86959de3771bf49a0d9553)
 Download the Windows installer or the Windows Portable version from https://git-scm.com/download/win
 
 ### Graphical user interfaces
